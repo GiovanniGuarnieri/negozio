@@ -43,4 +43,6 @@ public class Ordine {
 	@ManyToOne
 	@JoinColumn(name="id_cliente")
 	private Cliente cliente;
+	
+	//ciao
 }
