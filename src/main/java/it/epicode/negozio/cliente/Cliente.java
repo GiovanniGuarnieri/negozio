@@ -44,4 +44,6 @@ public class Cliente {
 	@OneToMany(mappedBy = "cliente",cascade = CascadeType.ALL)
 	private List<Ordine> ordini;
 //ciao
+	//ciao
+	
 }
