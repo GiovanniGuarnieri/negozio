@@ -53,7 +53,8 @@ public class ClienteController {
 				descrizioneDiErrore.add(e.getDefaultMessage());
 			}
 			return new ResponseEntity(descrizioneDiErrore , HttpStatus.BAD_REQUEST);
-
+//ciao
+			//ciao
 		}
 		cp.save(c);
 		return ResponseEntity.ok("Cliente inserito");
