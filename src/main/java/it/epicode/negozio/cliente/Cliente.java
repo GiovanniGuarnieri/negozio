@@ -43,5 +43,5 @@ public class Cliente {
 	@JsonIgnore
 	@OneToMany(mappedBy = "cliente",cascade = CascadeType.ALL)
 	private List<Ordine> ordini;
-
+//ciao
 }
