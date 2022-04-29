@@ -20,5 +20,5 @@ public interface ClienteRepository extends CrudRepository<Cliente, Integer> {
 	 * @return
 	 */
 	public List<Cliente> findByPartitaIva(String partitaIva);
-	
+	//COMMENTE ORE 15:35
 }
